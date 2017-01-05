@@ -3,6 +3,9 @@
 % that the average speed could be 10 mph less than the maximum speed and
 % assuming that it is 300 rail miles from Detroit to Chicago. 
 
+rng(82652);  % seed the random number generator so you get the same data
+                    % each time you run this. 
+
 % generate a set of 10 data points of time for the trip at each of several
 % train speeds.
 % 30 mph train (20 min speed, 30 max)
